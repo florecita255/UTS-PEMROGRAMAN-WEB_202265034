@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS Pemrograman Web</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&family=Bebas+Neue&family=Handlee&family=Montserrat:ital,wght@0,200;0,500;0,800;1,100&display=swap" rel="stylesheet">
+    <!-- feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="utsweb.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="nav-logo">UTS <span>WEB</span></a>
+      <div class="navbar-nav">
+        <a href="#home"> HOME</a>
+        <a href="#profil">PROFIL</a>
+        <a href="#layout">LAYOUT</a>
+        <a href="#dom">DOM</a>
+      </div>
+      <div class="nav-extra">
+        <a href="#" id="ham-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home start -->
+    <div class="HOME" id="home" >
+      <div class="list"></div>
+      <div id="list1"><h2> Descendants of The Sun </h2>
+        <div class="movie-synopsis1">
+          <p> Descendants of The Sun (DOTS) dirilis pertama kali <br>
+              pada tahun 2016 dan menjadi salah satu drama terpopuler. <br>
+              Drama ini bercerita tentang kisah cinta antara kapten pasukan khusus,<br>
+              Yoo Shi Jin (Song Joong Ki) dan dokter bedah Kang Mo Yeon (Song Hye Kyo)
+          </p>
+        </div>
+      </div>
+      <div id="list2"><h2> Twenty Five Twenty One </h2>
+        <div class="movie-synopsis2">
+          <p> Twenty Five Twenty One menceritakan kisah cinta antara <br>
+              Na Hee Do (Kim Tae Ri) dan Baek Yi Jin (Nam Joo Hyuk) serta <br>
+              persahabatan yang kuat di masa muda.
+         </p>
+        </div>
+      </div>
+      <div id="list3"><h2> Mr Bad                   </h2>
+        <div class="movie-synopsis3">
+          <p>
+            Mr.Bad mengisahkan tentang seorang wanita muda yang suka menulis <br>
+            bernama Nan Xing (Shen Yue) dan tokoh yang ditulis Xiao Wu Di (Chen Zhe Yuan). <br>
+            Drama China Mr Bad bercerita tentang kisah penulis <br>
+            dan tokoh jahat dalam karyanya yang tidak sengaja terpanggil ke dunia nyata
+
+         </p>
+        </div>
+      </div>
+      <div id="list4"><h2> My ID is Gangnam Beauty  </h2>
+        <div class="movie-synopsis4">
+          <p> Drama Korea My ID is Gangnam Beauty merupakan <br>
+              adaptasi webtoon populer dengan judul yang sama. <br>
+              Drama ini tayang pada tahun 2018 dan diperankan <br>
+              oleh Lim Soo Hyang dan Cha Eun Woo ASTRO
+         </p>
+        </div>
+      </div>
+      <div id="list5"><h2> It's Okay to Not Be Okay </h2>
+        <div class="movie-synopsis5">
+          <p> It’s Okay to Not Be Okay bercerita tentang <br>
+              Moon Gang Tae (Kim Soo Hyun), Moon Sang Tae (Oh Jung Se) dan <br>
+              Ko Moon Young (Seo Yea Ji) yang memiliki trauma masa lalu <br>  
+         </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    
+    <!-- home end -->
+
+    <!-- profil start -->
+    <div class="PROFIL" id="profil">
+      <table class="biodata" align="justify" cellspacing="0" cellpadding="5">
+    <tr>
+      <td rowspan="0">
+        <img src="flow.png" title="Foto Saya" width="150">
+      </td>
+    </tr>
+        <tr>
+      <td>Nama Lengkap</td>       
+      <td>:</td> 
+      <td>Celestina Florecita Mariwy</td>
+      </tr>
+      <tr>
+      <td>Tempat tanggal Lahir</td>
+      <td>:</td>
+      <td>Ambon, 02 Mei 2005</td>
+        </tr>
+        <tr>
+      <td> Alamat </td>
+      <td>:</td>
+      <td>JL. Anef Anday</td>
+      </tr>
+          <tr>
+      <td> Media Sosial</td>
+      <td>:</td>
+      <td> <ul type = "disc" style="list-style: none;padding: 0 px 20px;position: relative;display: inline-table;">
+        <li style="float: left;"><p><a href="https://www.instagram.com/flormariwy" target ="_blank" style="text-decoration: none; display: block;padding: 10px;color:#613D1B; font-size: 12pt;">Instagram</a></p> </li>
+        <li style="float:left;"><p><a href="https://www.facebook.com/floor.mariwy" target ="_blank"style="text-decoration: none; display: block;padding: 10px;color:#613D1B; font-size: 12pt;">Facebook</a></p> </li>
+        <li style="float:left"><p><a href="https://www.tiktok.com/@iniflor_" target ="_blank"style="text-decoration: none; display: block;padding: 10px;color:#613D1B; font-size: 12pt;">TikTok</a></p> </li>
+  
+      </ul> </td>
+        </tr>
+        <tr>
+      <td> Tentang Saya</td>
+      <td>:</td>
+      <td><p>Tidak ada yang spesial tentang saya</p></td>
+        </tr>
+  </table>
+  
+  
+  <br><br>
+  
+  <table class ="table" align="center" border="1" style="width: 100%;" cellspacing="0" cellpadding="10" style="width:100%">
+    <tr align="center">
+      <td>No.</td>
+      <td>Kode Mata Kuliah</td>
+      <td>Nama Mata Kuliah</td>
+      <td>Hari</td>
+      <td>Jam</td>
+      <td>Dosen</td>
+    </tr>
+    <tr align="center">
+      <td>1</td>
+      <td>D65303</td>
+      <td><a  title="D65303_Basis Data Lanjutan" style="color:#613D1B; text-decoration: none;""> Basis Data Lanjutan </a></td>
+      <td>Selasa</td>
+      <td>12.20-14.20</td>
+      <td>Ratna Juita, S.T.,M.T</td>
+    </tr>
+    <tr align="center">
+      <td>2</td>
+      <td>D65307</td>
+      <td><a title="D65307_Jaringan Komputer" style="color:#613D1B; text-decoration: none;"> Jaringan Komputer </a></td>
+      <td>Senin</td>
+      <td>10.00-12.00</td>
+      <td>Andreas Sumendap, S.T.,M.T</td>
+    </tr>
+    <tr align="center">
+      <td>3</td>
+      <td>D61045712W</td>
+      <td><a  title="D61045712W_Kewirausahaan" style="color:#613D1B; text-decoration: none;"> Kewirausahaan </a></td>
+      <td>Kamis</td>
+      <td>08.00-09.40</td>
+      <td>Dosen Layanan</td>
+    </tr>
+    <tr align="center">
+      <td>4</td>
+      <td>D65302</td>
+      <td><a title="D65302_Pemrograman Berbasis Web" style="color:#613D1B; text-decoration: none;"> Pemrograman Berbasis Web </a></td>
+      <td>Senin</td>
+      <td>12.00-14.00</td>
+      <td>Christian Dwi Suhendra, S.T,M.Cs</td>
+    </tr>
+    <tr align="center">
+      <td>5</td>
+      <td>D65304</td>
+      <td><a  title="D65304_Probabilitas dan Statistika" style="color:#613D1B; text-decoration: none;"> Probabilitas dan Statistika</a></td>
+      <td>Rabu</td>
+      <td>11.00-13.00</td>
+      <td>Marlinda Sanglise,S.Kom.,M.Kom</td>
+    </tr>
+    <tr align="center">
+      <td>6</td>
+      <td>D65305</td>
+      <td><a title="D65305_Sistem Digital" style="color:#613D1B; text-decoration: none;"> Sistem Digital </a></td>
+      <td>Senin</td>
+      <td>08.00-10.00</td>
+      <td>Abdul Z.Patiran, S.T.,M.Eng</td>
+    </tr>
+    <tr align="center">
+      <td>7</td>
+      <td>D65308</td>
+      <td><a title="D65308_Sistem Operasi" style="color:#613D1B; text-decoration: none;"> Sistem Operasi</a></td>
+      <td>Rabu</td>
+      <td>12.30-14.30</td>
+      <td>Alex De Kweldju, S.Kom.,M.S</td>
+    </tr>
+    <tr align="center">
+      <td>8</td>
+      <td>D65301</td>
+      <td><a  title="D65301_Struktur Data"style="color:#613D1B; text-decoration: none;"> Struktur Data </a></td>
+      <td>Senin</td>
+      <td>15.00-17.00</td>
+      <td>Christian Dwi Suhendra, S.T,M.Cs</td>
+    </tr>
+  </table>
+  </div>
+    <!-- profil end -->
+
+    <!-- layout start -->
+    <div class="LAYOUT" id="layout">
+      <div class="container">
+        <h4>CELESTINA FLORECITA MARIWY</h4>
+        <div class="header" align="center">
+            <h3>HEADER</h3>
+        </div>
+        <div class="navigasi" align="center" >
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#daftar">Daftar <a/></li>
+            </ul>
+        </div>
+        <div style="display: flex">
+          <div id="colomleft" align="center">
+            <h5>NAMA PANGGILAN</h5>
+            <div id="left1"><p>NONA</p></div>
+            <div id="left2"><p>FLOR</p></div>
+            <div id="left3"><p>MARIWY</p></div>
+          </div>
+          <div id="colomcenter" align="center">
+            <h5>LIST HOBI</h5>
+            <div id="center1"><p>SUKA</p></div>
+            <div id="center2"><p>PACAR</p></div>
+            <div id="center3"><p>ORANG</p></div>
+          </div>
+          <div id="colomright" align="center">
+            <h5>STATUS</h5>
+            <div id="right1"><p>FRIENDZONE</p></div>
+            <div id="right2"><p>HTS</p></div>
+            <div id="right3"><p>BAKU BAWA</p></div>
+          
+          </div>
+        </div>
+        <div id="footer" align="center">
+          <h3>TERIMA KASIH</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- layout end  -->
+
+    <!-- dom start -->
+    <div class="DOM" id="dom">
+      <div id="header"></div>
+      <div id="gabung" style="display: flex">
+      <div id="kiri">
+        <input type="text" name="text" class="input"  id="color"  placeholder="Ketik di sini ...">
+        <br>
+        <div id="pilih2"><button id="btn1">Set list backColor</button></div>
+        <div id="pilih3"> <h1>Add Color</h1>
+
+          <div class="color-picker">
+              <input type="color" id="color-input">
+              <button onclick="addColor()">Add Color</button>
+          </div>
+      
+          <div class="color-palette" id="color-palette">
+              <!-- Warna yang sudah ditambahkan akan muncul di sini -->
+          </div><
+          
+          
+          /div>
+        <div id="pilih4"><button onclick="addFooter()">Add footer</button>
+
+          <div id="footer-container">
+              <!-- Footer akan ditambahkan di sini -->
+          </div></div>
+      </div>
+      <div id="kanan">
+        <div id="warna1">merah</div>
+        <div id="warna2">biru</div>
+        <div id="warna3">kuning</div>
+        <div id="warna4">ungu</div>
+        <div id="warna5">pink</div>
+      </div>
+    </div>
+  </div>
+<!-- menambahkan footer -->
+    <!-- dom end -->
+
+    <!-- feather icons-->
+    <script>
+      feather.replace();
+    </script>
+    <!-- JavaScript -->
+    <script src="utsweb.js"></script>
+  </body>
+</html>
